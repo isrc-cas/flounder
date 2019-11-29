@@ -107,6 +107,6 @@ to learn about the layout of the source code tree.
 
 本仓库的porting的原始代码，commit来自llvm官方
 
-commit 79b773fe7fffbea3bee2b34ace8f8ca5bae8526d 移植自 [AllocAndInit/ollvm5.0.1](https://github.com/AllocAndInit/ollvm5.0.1) （该项目中stringobfuscation部分和 [GoSSIP-SJTU/Armariris](https://github.com/GoSSIP-SJTU/Armariris)比较接近）
+commit 79b773fe7fffbea3bee2b34ace8f8ca5bae8526d 移植自 [AllocAndInit/ollvm5.0.1](https://github.com/AllocAndInit/ollvm5.0.1) （该项目中stringobfuscation部分代码和 [GoSSIP-SJTU/Armariris](https://github.com/GoSSIP-SJTU/Armariris)比较接近）
 
-感谢AllocAndInit开源的贡献！
+感谢AllocAndInit，GoSSIP-SJTU等开源的贡献！
