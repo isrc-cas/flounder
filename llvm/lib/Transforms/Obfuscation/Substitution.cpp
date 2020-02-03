@@ -481,7 +481,7 @@ void Substitution::orSubstitutionRand(BinaryOperator *bo) {
   // ~(~a | ~b) & (r | ~r)
   op4 = BinaryOperator::Create(Instruction::And, op3, op4, "", bo);
 
-  // (((~a & r) | (a & ~r)) ^ ((~b & r) | (b & ~r))] | [~(~a | ~b) & (r | ~r))
+  // (((~a & r) | (a & ~r)) ^ ((~b & r) | (b & ~r))) | (~(~a | ~b) & (r | ~r))
   op = BinaryOperator::Create(Instruction::Or, op5, op4, "", bo);
   bo->replaceAllUsesWith(op);
 }
